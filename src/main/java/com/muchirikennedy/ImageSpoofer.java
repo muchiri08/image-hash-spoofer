@@ -17,7 +17,7 @@ import java.awt.image.BufferedImage;
 public class ImageSpoofer {
     public static void main(String[] args) {
         if (args.length != 3) {
-            System.out.println("Usage: java ImageSpoofer <hexstring> <inputImage> <outputImage>");
+            System.out.println("Usage: java -jar spoof.jar <hexstring> <inputImage> <outputImage>");
             return;
         }
         String hexString = args[0].substring(2); // removing the '0x' part

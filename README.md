@@ -7,12 +7,12 @@ To run this project:
   </li>
   <li>
     Run <pre>mvn clean package</pre>
-    <p>A target folder will be generated with the jar files</p>
+    <p>A target folder will be generated with the jar file</p>
   </li>
   <li>
-    Run <pre>java -jar target/image-spoofer-1.0-SNAPSHOT-jar-with-dependencies.jar &lt;hexString&gt; &lt;originalImage&gt; &lt;alteredImage&gt;</pre>
+    Run <pre>java -jar target/spoof.jar &lt;hexString&gt; &lt;originalImage&gt; &lt;alteredImage&gt;</pre>
     <p>Example</p>
-    <pre>java -jar target/image-spoofer-1.0-SNAPSHOT-jar-with-dependencies.jar 0x24 original.jpg altered.jpg</pre>
+    <pre>java -jar target/spoof.jar 0x24 original.jpg altered.jpg</pre>
   </li>
 </ul>
 <h4>Note:</h4>
